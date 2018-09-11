@@ -8,10 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Canvas>
-            <Button> Boton uno </Button>
-            <Button Canvas.Top="0" Canvas.Right="0"> Boton dos </Button>
-            <Button Canvas.Bottom="0"> Boton tres</Button>
+            <Button>Boton uno</Button>
+            <Button Canvas.Top="0" Canvas.Right="0">Boton dos</Button>
+            <Button Canvas.Bottom="0">Boton tres</Button>
             <Button Canvas.Bottom="0" Canvas.Right="0">Boton cuatro</Button>
+            <Rectangle Fill="Coral" Height="50" Width="50" Canvas.Left="100" Canvas.Top="100" Panel.ZIndex="23"></Rectangle>
+            <Rectangle Fill="Purple" Height="50" Width="50" Canvas.Left="127" Canvas.Top="126" Panel.ZIndex="25"></Rectangle>
         </Canvas>
     </Grid>
 </Window>
